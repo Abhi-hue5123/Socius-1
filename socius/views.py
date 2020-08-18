@@ -93,6 +93,8 @@ def create(request,*args,**kwargs):
     #return render(request,'socius/createdir.html')
 def created(request):
     return redirect('index')
+
+    
    
 def about(request):
    return render(request,'socius/about.html')
